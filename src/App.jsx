@@ -21,10 +21,10 @@ function App() {
       <BrowserRouter>
           <Header count={count}/>
         <Routes>
-              <Route path="/" element={<Home handle={handleadd}/>}/>
-              <Route path="/food" element={<Our_Food/>}/>
-              <Route path="/about" element={<About/>}/>
-              <Route path="/contact" element={<Contact/>}/>
+              <Route path="/DishDelight/" element={<Home handle={handleadd}/>}/>
+              <Route path="/DishDelight/food" element={<Our_Food handle={handleadd}/>}/>
+              <Route path="/DishDelight/about" element={<About/>}/>
+              <Route path="/DishDelight/contact" element={<Contact/>}/>
         </Routes>
           <Footer />
       </BrowserRouter>

@@ -22,16 +22,16 @@ const Header = ({count}) => {
         </div>
         <div>
           <ul className="hidden gap-5 text-[18px] cursor-pointer sm:flex">
-            <Link to="/">
+            <Link to="/DishDelight/">
             <li className="hover:text-orange-500">Home</li>
             </Link>
-            <Link to="/food">
+            <Link to="/DishDelight/food">
             <li className="hover:text-orange-500">Foods</li>
             </Link>
-            <Link to="about">
+            <Link to="/DishDelight/about">
             <li className="hover:text-orange-500">About Us</li>
             </Link>
-            <Link to="/contact">
+            <Link to="/DishDelight/contact">
             <li className="hover:text-orange-500">Contact Us</li>
             </Link>
           </ul>
