@@ -1,5 +1,4 @@
 import React, { useContext, useState, useEffect } from "react";
-import { data } from "../components/Data/Data";
 import { ContexFood } from "../FoodContex/FoodContex";
 import { Add } from "../Icons/Add";
 import { Minus } from "../Icons/Minus";

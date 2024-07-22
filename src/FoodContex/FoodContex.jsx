@@ -11,6 +11,10 @@ export const FoodProvider = ({children})=>{
     
     const [side, setside] = useState(false);
 
+    const [search, setSearch] = useState("")
+
+    const [fooddata,setfooddata] = useState([])
+
 
     const handleadd = (d)=>{
 
@@ -57,7 +61,7 @@ export const FoodProvider = ({children})=>{
        }
 
     return(
-        <ContexFood.Provider value={{handleadd,count,cart,setcart,setcount,side,setside,handleplus,handleminus}} >
+        <ContexFood.Provider value={{handleadd,count,cart,setcart,setcount,side,setside,handleplus,handleminus,search,setSearch,fooddata,setfooddata}} >
             {children}
         </ContexFood.Provider>
     )
