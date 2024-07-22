@@ -152,7 +152,7 @@ const Cart = () => {
         
       </div>
 
-      <div className={`w-max sm:w-fit flex absolute ${order?"top-[19%]":"top-[-50%]"}  left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-500 items-center py-2 px-3 gap-2 rounded-lg transition-all duration-500`}>
+      <div className={`w-max sm:w-fit flex absolute ${order?"top-[10%] sm:top-[19%]":"top-[-50%]"}  left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-500 items-center py-2 px-3 gap-2 rounded-lg transition-all duration-500`}>
             <h1 className="  text-white text-base sm:text-xl ">Your Order has been Placed</h1>
             <Tick/>
             </div>
