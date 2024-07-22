@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { data } from "../Data/Data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { ContexFood } from "../../FoodContex/FoodContex";
 
-const Food = ({handle}) => {
+const Food = () => {
+  const {handleadd} = useContext(ContexFood)
+
     var settings = {
         dots: true,
         infinite: false,
@@ -59,7 +62,7 @@ const Food = ({handle}) => {
                     />
                     <p className="text-[15px] sm:text-xl">{d.title}</p>
                     <p className="sm:text-[18px] text-[14px]" >RS.{d.price}</p>
-                    <button className="bg-orange-500 text-white text-[12px] px-2 py-[5px] rounded-md sm:text-[16px] sm:px-2 sm:py-1" onClick={handle}>Add to Cart</button>
+                    <button className="bg-[#D65B06] text-white text-[12px] px-2 py-[5px] rounded-md sm:text-[16px] sm:px-2 sm:py-1 hover:bg-[#F97316] duration-300 active:scale-[.8]" onClick={() => handleadd(d) }>Add to Cart</button>
                   </div>
                 </div>
               </div>

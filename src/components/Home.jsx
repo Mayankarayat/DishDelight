@@ -3,12 +3,12 @@ import Hero from './Hero/Hero'
 import Delivery from './Delivery/Delivery'
 import Food from './Food/Food'
 
-const Home = ({handle}) => {
+const Home = () => {
   return (
     <div>
         <Hero/>
         <Delivery/>
-        <Food handle={handle}/>
+        <Food/>
     </div>
   )
 }

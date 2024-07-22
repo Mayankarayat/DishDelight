@@ -5,3 +5,24 @@
   font-weight: 600;
   font-style: normal;
 }
+
+html{
+  height: 100%;
+}
+
+body{
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 15rem;
+}
+
+.active{
+  color: #f97316;
+}
+
+
+@media screen and (max-width: 640px){
+  body{
+    padding-bottom: 32rem;
+  }
+}
