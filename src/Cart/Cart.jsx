@@ -91,14 +91,15 @@ const Cart = () => {
                       {/* <h1 className="text-lg ">Quantity</h1> */}
                     </div>
                     <div className="flex gap-1 sm:gap-2">
+                    <Minus
+                        className="cursor-pointer w-[14px]"
+                        onClick={() => handleminus(item.id)}
+                      />
+                      
+                      <p className="text-sm md:text-base">{item.quantity}</p>
                       <Add
                         className="cursor-pointer w-[14px]"
                         onClick={() => handleplus(item.id)}
-                      />
-                      <p className="text-sm md:text-base">{item.quantity}</p>
-                      <Minus
-                        className="cursor-pointer w-[14px]"
-                        onClick={() => handleminus(item.id)}
                       />
                     </div>
                   </div>
