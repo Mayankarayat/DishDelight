@@ -20,9 +20,42 @@ body{
   color: #f97316;
 }
 
+.slick-slide > div{
+  margin:  10px;
+}
 
-@media screen and (max-width: 640px){
+.slick-arrow:before{
+  color: rgb(249 115 22) !important;
+  /* font-size: 25px !important; */
+} 
+
+.slick-dots li button:before{
+  color:#f97316 !important;
+}
+
+@media screen and (max-width: 650px){
   body{
     padding-bottom: 32rem;
   }
+}
+
+@media screen and (max-width: 640px){
+  body{
+    padding-bottom: 35rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #review{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .slick-next{
+    right: -15px !important;
+  }
+  .slick-prev {
+    left: -15px !important;
+}
 }

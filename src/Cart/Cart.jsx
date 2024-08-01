@@ -55,9 +55,9 @@ const Cart = () => {
       <div className="w-[90%] lg:w-[80%] m-auto flex flex-col sm:flex-row gap-5 my-5">
         <div className="w-full sm:w-[65%] lg:w-[70%]">
           {cart.length == 0 ? (
-            <h1 className="absolute top-[30%] left-[50%] translate-x-[-50%] traslate-y-[-50%] text-4xl text-center my-3 w-[100%] text-orange-500">
-              Your Cart is Empty!
-            </h1>
+            <span className=" w-[80px] sm:w-[120px] md:w-[150px] absolute top-[9%] sm:top-[20%] md:top-[16%] lg:top-[20%] left-[50%] translate-x-[-50%] traslate-y-[-50%] text-4xl text-center my-3 text-orange-500">
+              <img src="https://www.armaajewels.com/assets/images/emptycart.png" alt="" />
+            </span>
           ) : 
           
           (

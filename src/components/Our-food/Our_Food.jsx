@@ -25,7 +25,7 @@ const Our_Food = () => {
 
       </div>
         <div className={`flex justify-center items-center flex-wrap gap-10`}>
-        {fooddata.filter((item)=>item.title.toLowerCase().includes(search)).map((item)=>{
+        {fooddata.filter((item)=>item.title.toLowerCase().includes(search)||item.title.includes(search)).map((item)=>{
             return(
                 <div key= {item.id} className='gap-1  w-[140px] h-[220px] sm:w-[180px] sm:h-[250px] flex flex-col sm:gap-2 items-center cursor-pointer'>
                     <img src={item.img} alt={item.title} className='w-[100%] h-[130px] sm:h-[140px] object-cover object-center' />

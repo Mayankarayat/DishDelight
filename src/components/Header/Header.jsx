@@ -39,7 +39,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className={`absolute right-0 ${side?"top-0":"top-[-1000px]"}  bg-gray-400 w-[200px] h-[90vh] rounded-bl-[100px] flex justify-center items-center z-10 transition-all duration-500`}>
+        <div className={`absolute right-0 ${side?"top-0":"top-[-1000px]"}  bg-orange-100 w-[200px] h-[90vh] rounded-bl-[100px] flex justify-center items-center z-10 transition-all duration-500`}>
             <RxCross2 className=" size-6  cursor-pointer absolute top-5 right-3"  onClick={()=>setside(!side)} />
             <ul className="flex flex-col gap-5 text-[20px] cursor-pointer text-black">
               <NavLink to='/DishDelight/'>

@@ -10,7 +10,7 @@ const Food = () => {
 
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 2,
@@ -37,7 +37,7 @@ const Food = () => {
             breakpoint: 480,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 2
+              slidesToScroll: 1
             }
           }
         ]

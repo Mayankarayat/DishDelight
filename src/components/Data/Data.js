@@ -55,20 +55,67 @@ export const data = [
         price: 250,
         
     },
-    {
-        id:9,
-        title:"Pav Bhaji",
-        img:"https://5.imimg.com/data5/SELLER/Default/2022/9/BA/JW/VP/8795897/pav-bhaji-masala.png",
-        price: 220,
+    // {
+    //     id:9,
+    //     title:"Pav Bhaji",
+    //     img:"https://5.imimg.com/data5/SELLER/Default/2022/9/BA/JW/VP/8795897/pav-bhaji-masala.png",
+    //     price: 220,
         
+    // },
+    // {
+    //     id:10,
+    //     title:"Rasmalai",
+    //     img:"https://media-cdn.tripadvisor.com/media/photo-s/12/4d/2e/a8/rasmalai-spongy-cottage.jpg",
+    //     price: 280,
+        
+    // }
+]
+
+export const review = [
+    {
+        id:1,
+        name:"Lana Rodes",
+        text:"Nicest pata braves ever and the fish tacos are to die for. The staff are brilliant really friendly and helpful.",
+        rating:4,
+        img:"https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
     },
     {
-        id:10,
-        title:"Rasmalai",
-        img:"https://media-cdn.tripadvisor.com/media/photo-s/12/4d/2e/a8/rasmalai-spongy-cottage.jpg",
-        price: 280,
-        
-    }
+        id:2,
+        name:"Ayushi Singh",
+        text:"Need more choices, and in the morning should open before 7.30. It needs to either have a buffet service or faster serving time. It also needs to reduce mistakes in taking orders.",
+        rating:3,
+        img:"https://img.freepik.com/free-photo/young-woman-posing-while-wearing-traditional-sari-garment_23-2149565172.jpg?t=st=1722515014~exp=1722518614~hmac=c15ef289171017d34c8c068015f4399e72002f605bee9d03641e8a9748f417da&w=360"
+    },
+    {
+        id:3,
+        name:"Rohan Mehra",
+        text:"The Food we had enjoyed at the time of dinner. It was really delicious taste with great quality, everything had unique taste which we had ordered.",
+        rating:5,
+        img:"https://img.freepik.com/free-photo/portrait-young-man-talking-phone-walking-street_231208-2764.jpg?t=st=1722514992~exp=1722518592~hmac=0d0d2821e06fd752622ce1dc7fc84824a84b6ed9baa94ce06fbc3da4f7e09485&w=360"
+    },
+    {
+        id:4,
+        name:"Tarun Bisht",
+        text:"food was excellent and hospitality is very good with this restaurant my friend and me visited here burger was too small",
+        rating:4,
+        img:"https://img.freepik.com/premium-photo/young-man-standing-road_1048944-21013019.jpg?w=740"
+    },
+    {
+        id:5,
+        name:"Deepika Singh",
+        text:"I have visited this restaurant many times but unfortunately it’s not what it use to be… food dishes are bulked up with veg rather than meat so very disappointing considering the London prices…",
+        rating:3,
+        img:"https://img.freepik.com/free-photo/adults-enjoying-mexican-food_23-2149663828.jpg?t=st=1722515182~exp=1722518782~hmac=0ccc3451395995689f1fd23293446ea84ba22f533bd206f28f27ea4fbc6dbe48&w=360"
+    },
+    {
+        id:6,
+        name:"Deepak Rawat",
+        text:"food was excellent and hospitality is very good with this restaurant my friend and me visited here burger was too small",
+        rating:4,
+        img:"https://img.freepik.com/premium-photo/man-shirt_1105457-7.jpg?w=360"
+    },
+    
+    
 ]
 
 
